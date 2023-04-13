@@ -1,3 +1,4 @@
+
 public interface Contract {
 
     void grab(String item);
@@ -5,7 +6,7 @@ public interface Contract {
     void examine(String item);
     void use(String item);
     boolean walk(String direction);
-    boolean fly(int x, int y);
+    void fly();
     Number shrink();
     Number grow();
     void rest();
